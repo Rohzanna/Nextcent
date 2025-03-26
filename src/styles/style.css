@@ -1,44 +1,40 @@
 @import url('./global.css');
 
-/*----------------------------HEADER-----------------------------------*/
-
-header {
+/* ------------ HEADER ------------ */
+header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--color-neutral-silver);
-    
 }
 
-.logo {
+.logo{
     padding: 30px 0px;
-
 }
 
-.nav-header ul {
+.nav-header ul{
     display: flex;
     list-style: none;
     gap: 50px;
-
 }
 
-.nav-header ul a {
+.nav-header ul a{
     text-decoration: none;
-    color: var(--color-neutral-black)
+    color: #18191F;
 }
 
 .active{
     font-weight: bold;
 }
 
-.btn-login {
-    color:var(--color-primary);
-    background: transparent;
+.btn-login{
+    color: var(--color-primary);
+    background-color: transparent;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-.btn-SignUp {
+.btn-SignUp{
     color: var(--color-neutral-white);
     padding: 10px 20px;
     background-color: var(--color-primary);
@@ -46,10 +42,116 @@ header {
     cursor: pointer;
 }
 
-.btn-header {
+.btn-header{
     gap: 14px;
     padding: 22px 0px;
 }
 
+/* ------------ FIM HEADER ------------ */
 
-/*----------------------------HEADER-----------------------------------*/
+/* ------------ MAIN ------------ */
+
+main {
+    display: flex;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px;
+}
+
+.content-lessons {
+    width: 657px;
+}
+
+h1 {
+    font-size: 64px;
+    color: var( --color-neutral-d_grey);
+    font-weight: 600;
+}
+
+.content-lessons h1 span {
+    color: var(--color-primary);
+}
+
+.content-lessons p {
+    margin-top: 16px;
+}
+/* ------------ FIM MAIN ------------ */
+
+/*---------------------- OUR CLIENTS-----------------------------*/
+.our-clients {
+    text-align: center;
+}
+
+.our-clients p {
+    margin-top: 8px;
+}
+
+.logo-clients {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px;
+}
+/*---------------------- OUR CLIENTS-----------------------------*/
+
+/*---------------------- MANAGE SYSTEM-----------------------------*/
+.manager-system {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.manager-system h2 {
+    width: 542px;
+    margin: 0 auto;
+}
+
+#manager-system-subtitle {
+    margin-top: 8px;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 127.5px;
+}
+.cards-container article {
+    width: 299px;
+    height: 260px;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209,0.2);
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.cards-container article:hover {
+    box-shadow: 0px 8px 14px rgba(171, 190, 209,0.5);
+    transform: translateY(-8px);
+}
+
+.cards-container article img {
+    width: 65px;
+    height: 56px;
+}
+
+.cards-container article h3 {
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 231px;
+    margin: 0 auto;
+
+}
+
+.cards-container article p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+
+}
+
+
+
+/*---------------------- MANAGE SYSTEM-----------------------------*/

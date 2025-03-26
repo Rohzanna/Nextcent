@@ -2,57 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Author" content="Rosana Silva Barros">
-    <meta name= "Description" content="Esse é um site desenvolvido por meio de um projeto pronto afim de aprimorar conhecimentos em html">
-    <meta name="keywords" content="HTML, CSS, web design">
-    <meta property="og:title" content="Nexcent">
-    <meta property="og:description" content="Olha o projeto que eu desenvolvi usando HTML e CSS">
+    <meta name="Author" content="Matheus Maia Alvarez">
+    <meta name="Description" content="Esse é um site que desenvolvi a partir de um template no Figma, para testar meus conhecimentos em HTML e CSS">
+    <meta name="Keywords" content="HTML, CSS, web design">
+    <meta property="og:title" content="Nexcent">  
+    <meta property="og:description" content="Olha o projeto que desenvolvi usando HTML e CSS"  >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nextcent</title>
+    <title>Nexcent</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
-<!----------------------------HEADER----------------------------------->
-<header>
-    <div class="logo">
-        <img src="./src/assets/images/Logo (1).png" alt="Logo Nexcent" title=" Logo Nexcent">
-    </div>
+    
+    <header>
+        <div class="logo">
+            <img src="./src/assets/images/Logo.png" alt="Logo Nexcent" title="Logo Nexcent">
+        </div>
 
-    <nav class="nav-header">
-        <ul>
-            <a href="#"><li class="active"class="active">Home</li></a>
-            <a href="#"><li>Service</li></a>
-            <a href="#"><li>Feature</li></a>
-            <a href="#"><li>Product</li></a>
-            <a href="#"><li>Testimonial</li></a>
-            <a href="#"><li>FAQ</li></a>
-        </ul>
-    </nav>
+        <nav class="nav-header">
+            <ul>
+                <a href="#"><li class="active">Home</li></a>
+                <a href="#"><li>Service</li></a>
+                <a href="#"><li>Feature</li></a>
+                <a href="#"><li>Product</li></a>
+                <a href="#"><li>Testimonial</li></a>
+                <a href="#"><li>FAQ</li></a>
+            </ul>
+        </nav>
 
-    <div>
-        <a href="#"><button class="btn-login">Login</button></a>
-        <a href="#"><button class="btn-SignUp">Sign up</button></a>
-    </div>
+        <div class="btn-header">
+            <a href="#"><button class="btn-login">Login</button></a>
+            <a href="#"><button class="btn-SignUp">Sign up</button></a>
+        </div>
+    </header>
 
-</header>
-<!----------------------------FIM HEADER----------------------------------->
-<!-------------------------------MAIN------------------------------------->
-<main>
-    <div class="content-lessons">
-        <h1>Lessons and insights<span>from 8 years</span></h1>
-        <p>Where to grow your business as a photographer: site or social media?</p>
-        <button class="btn-primary">Register</button>
-    </div>
-    <div>
-        <img src="./src/assets/images/Illustration.svg" alt="desenho ilustrativo de um homem com um notebook na mão e um computador na sua frente com códigos HTML, CSS e C++">
-        
-    </div>
-</main>
-<!-------------------------------MAIN------------------------------------->
+    <main>
+        <div class="content-lessons">
+            <h1>Lessons and insights <span>from 8 years</span></h1>            
+            <p>Where to grow your business as a photographer: site or social media?</p>
+            <button class="btn-primary">Register</button>
+        </div>
+        <div>
+            <img src="./src/assets/images/Illustration.svg" alt="Desenho ilustrativo de uma pessoa no computador com códigos HTML, CSS e C++" title="Desenho ilustrativo de uma pessoa no computador com códigos HTML, CSS e C++"> 
+        </div>
+    </main>
+
+    <section class="our-clients">
+        <h2>Our Clients</h2>
+        <p>We have been working with some Fortune 500+ clients</p>
+        <div class="logo-clients">
+            <img src="./src/assets/images/Logo1.png" alt="Imagem Logo 1" title="Imagem Logo 1">
+            <img src="./src/assets/images/Logo2.svg" alt="Imagem Logo 2" title="Imagem Logo 2">
+            <img src="./src/assets/images/Logo3.svg" alt="Imagem Logo 3"  title="Imagem Logo 3">
+            <img src="./src/assets/images/Logo4.svg" alt="Imagem Logo 4"  title="Imagem Logo 4">
+            <img src="./src/assets/images/Logo5.svg" alt="Imagem Logo 5"  title="Imagem Logo 5">
+            <img src="./src/assets/images/Logo6.svg" alt="Imagem Logo 6"  title="Imagem Logo 6">
+            <img src="./src/assets/images/Logo7.svg" alt="Imagem Logo 7"  title="Imagem Logo 7">
+        </div>
+    </section>
+
+    <section class="manager-system">
+        <h2>Manage your entire community in a single system</h2>
+        <p id="manager-system-subtitle">Who is Nextcent suitable for?</p>
+    
+    <div class="cards-container">
+            <article>
+                <img src="./src/assets/images/Icon01manage.svg" alt="Icone Membership" tabindex="Membership">
+                <h3>Membership Organisations</h2>
+                <p>
+                    Our membership management software provides full automation of membership renewals and payments
+                </p>
+            </article>
+            <article>
+                <img src="./src/assets/images/Icon02manage.svg" alt="Icone National Associations" title="National Associations">
+                <h3>National Associations</h2>
+                <p>
+                    Our membership management software provides full automation of membership renewals and payments
+                </p>
+            </article>
+            <article>
+                <img src="./src/assets/images/Icon03manage.svg" alt="Icone Clubs And Groups" title="Clubs And Groups">
+                <h3>Clubs And Groups</h3>
+                <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </article>
+        </div>
+    </section>
 
 </body>
 </html>
