@@ -151,7 +151,41 @@ h1 {
     line-height: 1.6;
 
 }
+/*---------------------- MANAGE SYSTEM -----------------------------*/
+
+/*----------------------- PIXELGRADE -----------------------------*/
+.pixelgrade {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+    gap:49px;
+}
+
+.pixelgrade-content {
+    width: 661px;
+    margin: 0 auto;
+    
+}
+
+.mobile-login img{
+    width: 480.77px;
+}
+
+.pixelgrade-content button {
+    background-color: var(--color-primary);
+    padding: 14px 32px;
+}
+
+.pixelgrade h2 {
+    font-size: 36px;
+    color: var(--color-neutral-d_grey);
+}
+
+.pixelgrade p {
+    font-size: 14px;
+    color: var(--color-neutral-d_grey);
+    margin-top: 16px;
+}
 
 
-
-/*---------------------- MANAGE SYSTEM-----------------------------*/
+/*----------------------- FIM PIXELGRADE -----------------------------*/
