@@ -157,8 +157,10 @@ h1 {
 .pixelgrade {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 42px;
-    gap:49px;
+    gap: 49px;
+    padding: 52px 0px;
 }
 
 .pixelgrade-content {
@@ -168,7 +170,7 @@ h1 {
 }
 
 .mobile-login img{
-    width: 480.77px;
+    width: 600px;
 }
 
 .pixelgrade-content button {
@@ -176,16 +178,58 @@ h1 {
     padding: 14px 32px;
 }
 
-.pixelgrade h2 {
+.pixelgrade-content h2 {
     font-size: 36px;
+    width: 526px;
     color: var(--color-neutral-d_grey);
 }
 
 .pixelgrade p {
-    font-size: 14px;
     color: var(--color-neutral-d_grey);
     margin-top: 16px;
 }
+/*----------------------- FIM PIXELGRADE -----------------------------*/    
+
+/*---------------------- HELPING LOCAL -------------------------------*/
+
+.helping-local {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 72px;
+
+}
+
+.helping-content h2 {
+    width: 390px;
+}
+
+.helping-content h2 span {
+    color: var(--color-primary)
+}
+
+.helping-content p {
+    margin-top: 8px;
+    color: #18191F;
+}
+
+.helping-statistic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.helping-itens {
+    display: flex;
+}
 
 
-/*----------------------- FIM PIXELGRADE -----------------------------*/
+
+
+
+
+/*---------------------------ITENS----------------------------------*/
+
+/*-------------------- FIM HELPING LOCAL ---------------------------*/
