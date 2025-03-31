@@ -236,3 +236,26 @@ h1 {
 /*---------------------------ITENS----------------------------------*/
 
 /*-------------------- FIM HELPING LOCAL ---------------------------*/
+/*---------------------- FOOTER LIKE WE DID ------------------------*/
+.design-wedid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    gap: 49px;
+}
+
+.design-content {
+    width: 601px;
+}
+
+.design-content p{
+    margin-top: 16px;
+}
+
+.button {
+    margin-top: 32;
+}
+
+
+/*-------------------- FIM FOOTER LIKE WE DID ----------------------*/
