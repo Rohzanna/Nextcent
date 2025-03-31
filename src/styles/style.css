@@ -198,7 +198,8 @@ h1 {
     margin: 48px 0px;
     background-color: var(--color-neutral-silver);
     align-items: center;
-    gap: 72px;
+    gap: 204px;
+    padding: 64px 0px;
 
 }
 
@@ -218,18 +219,20 @@ h1 {
 .helping-statistic {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 100px;
 }
 
 .helping-itens {
     display: flex;
 }
 
+.helping-itens img{
+    width: 48px;
+}
 
-
-
-
-
+.information-itens{
+    text-align: start;
+}
 /*---------------------------ITENS----------------------------------*/
 
 /*-------------------- FIM HELPING LOCAL ---------------------------*/
