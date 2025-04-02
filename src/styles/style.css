@@ -154,40 +154,21 @@ h1 {
 /*---------------------- MANAGE SYSTEM -----------------------------*/
 
 /*----------------------- PIXELGRADE -----------------------------*/
-.pixelgrade {
+
+.pixelgrade{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 42px;
-    gap: 49px;
-    padding: 52px 0px;
+    justify-content: center;    
 }
 
-.pixelgrade-content {
-    width: 661px;
-    margin: 0 auto;
-    
+.pixelgrade img{
+    width: 442px;
 }
 
-.mobile-login img{
-    width: 600px;
+.pixelgrade-content{
+    width:  661px;
 }
 
-.pixelgrade-content button {
-    background-color: var(--color-primary);
-    padding: 14px 32px;
-}
-
-.pixelgrade-content h2 {
-    font-size: 36px;
-    width: 526px;
-    color: var(--color-neutral-d_grey);
-}
-
-.pixelgrade p {
-    color: var(--color-neutral-d_grey);
-    margin-top: 16px;
-}
 /*----------------------- FIM PIXELGRADE -----------------------------*/    
 
 /*---------------------- HELPING LOCAL -------------------------------*/
@@ -258,8 +239,9 @@ h1 {
 }
 
 /*-------------------- FIM FOOTER LIKE WE DID ----------------------*/
-/*------------------------- CUSTUMERS ------------------------------*/
-.custumers {
+/* ------------------------------ CUSTUMER ------------------------------ */ 
+
+.customer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,57 +250,131 @@ h1 {
     background-color: var(--color-neutral-silver);
 }
 
-.custumers-content {
-    width: 748px;
+.customer-content{
+    width: 748px;    
 }
 
-.custumers-content p {
+.customer-content p{
     line-height: 1.5;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
-.custumers-content h2 {
+.customer-content h2{
     color: var(--color-primary);
     font-size: 20px;
     margin-bottom: 8px;
 }
 
-.customers-navigation a{
-    display: flex;
+.customer-content p:nth-of-type(2){
+    color: var(--color-neutral-L_grey);    
 }
 
-.custumers-content p:nth-of-type(2){
-    color: var(--color-neutral-L_grey)
-}
-
-.custumers-container {
+.customer-container{
     display: flex;
     gap: 32px;
+    align-items: center;
 }
 
-.custumers-itens {
+.customer-itens{
     display: flex;
     gap: 41px;
 }
 
-.custumers-itens img {
+.customer-itens img{
     width: 48px;
 }
 
-.customers-navigation {
-    display: flex;
-
-}
-
-.customers-navigation a {
-    display: flex;
+.customer-navigation a{
+    display: flex;     
     text-decoration: none;
+    gap: 8px;
 }
 
-.customers-navigation a p {
+.customer-navigation a p{
     color: var(--color-primary);
-    margin: 0;
+    margin: 0;    
+}
+
+/* ------------------------------ FIM CUSTUMER ------------------------------ */ 
+/* ------------------------------ CARING MARKETING ------------------------------ */  
+.caring-mkt{
+    text-align: center;
+}
+
+.caring-mkt h2{
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring-mkt-p{
+    width: 628px;
+    margin: 0 auto;
+
+}
+
+.caring-mkt-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 94.6px;
+}
+
+.caring-cards{
+    width: 368px;
+    position: relative;
+}
+
+.caring-cards-content{
+    box-sizing: border-box;
+    background-color: var(--color-neutral-silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgb(171, 190, 209, 0.4);
+    width: 317px;
+    padding: 16px;
+    position: absolute;
+    bottom: -50px;
+    margin-left: 25px;
     
 }
 
-/*--------------------- CUSTUMERS FIM -----------------------------*/
+.caring-cards-content h3{
+    font-size: 20px;
+    color: var(--color-neutral-grey)
+    
+}
+
+.caring-cards-content a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+     
+}
+
+.caring-cards-content a p{
+    color: var(--color-primary)
+}
+
+/* ------------------------------ FIM CARING MARKETING ------------------------------ */ 
+
+/*-------------------------- PELLENTESQUE -----------------------------*/
+
+.pellentesque{
+    text-align: center;
+    background-color: var(--color-neutral-silver);
+
+}
+
+.pellentesque h2{
+    font-size: 64px;
+    width: 670px;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+
+    /*------------------------- FIM PELLENTESQUE ----------------------------*/
